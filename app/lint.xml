@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconDuplicates">
+        <ignore path="src/main/res/drawable-v24/w.jpg" />
+    </issue>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/benjamin.jpg" />
+        <ignore path="src/main/res/drawable/logo.png" />
+    </issue>
+</lint>

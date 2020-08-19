@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "730053868737",
+    "firebase_url": "https://gps-family-5f68e.firebaseio.com",
+    "project_id": "gps-family-5f68e",
+    "storage_bucket": "gps-family-5f68e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730053868737:android:71b7f3e076a0bf089ee840",
+        "android_client_info": {
+          "package_name": "com.kenyankoda.track_your_ride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730053868737-tiraeslnoiit787jo9smtgtvfj223uec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kenyankoda.track_your_ride",
+            "certificate_hash": "0eb8497e97fc79c0be10d81e2080421820c5c172"
+          }
+        },
+        {
+          "client_id": "730053868737-2oep3sbm8260sl6f7gkrpp9ijq72vbij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu3lar5k9cGtgmXEZ8L27vyQIGyShaUEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730053868737-2oep3sbm8260sl6f7gkrpp9ijq72vbij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730053868737:android:3f502b1e346c130e9ee840",
+        "android_client_info": {
+          "package_name": "com.kenyankoda.transporttrackerke"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730053868737-mkmf89jht56rlbn6gdts04tmk7b4v6cn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kenyankoda.transporttrackerke",
+            "certificate_hash": "0eb8497e97fc79c0be10d81e2080421820c5c172"
+          }
+        },
+        {
+          "client_id": "730053868737-2oep3sbm8260sl6f7gkrpp9ijq72vbij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu3lar5k9cGtgmXEZ8L27vyQIGyShaUEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730053868737-2oep3sbm8260sl6f7gkrpp9ijq72vbij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

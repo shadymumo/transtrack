@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+
+
+    tools:context=".NamePicActivity"
+
+    tools:ignore="Overdraw">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="258dp"
+        android:ems="10"
+        android:hint="Enter your name or plate NO."
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="#DD2C00"
+        android:textColorHint="#DD2C00"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="156dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginBottom="60dp"
+        android:background="#00C853"
+        android:onClick="registerUser"
+        android:text="Finish"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="217dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="44dp"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

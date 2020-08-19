@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity"
+
+    android:background="@drawable/benjamin"
+
+
+    tools:ignore="Overdraw">
+
+    <ImageView
+        android:layout_width="272dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/logo"
+       />
+
+    <TextView
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="182dp"
+        android:text="Welcome to the Drivers' Dashboard"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="163dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginBottom="231dp"
+        android:background="#000000"
+        android:onClick="gotoregister"
+        android:text="Sign Up"
+        android:textColor="#D50000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="87dp"
+        android:onClick="gotologin"
+        android:text="Already a user, SIGN IN"
+        android:textColor="#00B8D4"
+        android:textSize="28sp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
